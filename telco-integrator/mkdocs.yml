@@ -1,6 +1,6 @@
 site_name: Accelerator for Telco
 site_url: https://github.com/IBM/expertise-connect-integration/
-site_description: describe Telco asset
+site_description: Describe Telco asset
 theme:
     name: material
 nav:
