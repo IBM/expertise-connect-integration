@@ -1,0 +1,17 @@
+site_name: Accelerator for Telco
+site_url: https://github.com/IBM/expertise-connect-integration/
+site_description: Describe Telco asset
+theme:
+    name: material
+nav:
+- Home: index.md
+- Business Case: biz_case.md
+- Integrator Solution Overview: solution_overview.md
+- Reference Architecture: cloud_app_int_ref-arch.md
+- IBM CP4I Capabilites: cp4i-capabilities.md
+- TMF Open APIs Integrated: tmf-apis_in_cp4i.md
+- Monetize Your APIs: devportal.md
+- API Connect Analytics: analytics.md
+- Infuse Artificial Intelligence: cp4d-ai.md
+
+
