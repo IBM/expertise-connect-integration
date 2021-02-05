@@ -1,10 +1,19 @@
-site_name: Accelerator for Telco
+site_name: Telco Integrator TEST
 site_url: https://github.com/IBM/expertise-connect-integration/
-site_description: Describe Telco asset
+site_description: describe asset
 theme:
     name: material
+    palette:
+        primary: 'black'
+        accent: 'red'
+    font:
+        text: 'IBM Plex Sans'
+        code: 'IBM Plex Mono'
+    features:
+        - tabs
+        - navigation.tabs
 nav:
-- Home: index.md
+- HomeTEST: index.md
 - Business Case: biz_case.md
 - Integrator Solution Overview: solution_overview.md
 - Reference Architecture: cloud_app_int_ref-arch.md
@@ -15,3 +24,21 @@ nav:
 - Infuse Artificial Intelligence: cp4d-ai.md
 
 
+# Markdown extensions
+markdown_extensions:
+    - admonition
+    - toc:
+        baselevel: 4
+        separator: "-"
+#       permalink: True
+    - sane_lists
+
+# Plugins
+plugins:
+    - search:
+        separator: '[\s\-\.]+'
+        prebuild_index: true
+#    - macros
+  
+extra_javascript:
+    - js/extra.js 
